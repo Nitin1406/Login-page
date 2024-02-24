@@ -22,7 +22,7 @@ This project is a demonstration of a login page with OTP verification functional
 2. Navigate to the project directory in your terminal.
 3. Run `npm install` to install the necessary dependencies for both the frontend and backend.
 4. After installing dependencies, you need to start both the frontend and backend servers:
-   - For the frontend (React), run `npm start` in the `otp-login` directory.
+   - For the frontend (React), run `npm start` in the `client` directory.
    - For the backend (Express), run `npm start` in the root directory.
 5. Access the application in your browser at `http://localhost:3000` (assuming React's default port) and start testing the login functionality.
 
@@ -36,7 +36,7 @@ Then, follow the steps mentioned in the "Usage" section to install the required 
 - Tailwind CSS
 
 ## File Structure
-- `otp-login`: Contains the React frontend code.
+- `client`: Contains the React frontend code.
   - `public`: Public assets.
   - `src`: Source code.
 - `server.js`: Contains the Node.js with Express backend code.
